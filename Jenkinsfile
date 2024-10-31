@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clonar repositorio') {
             steps {
-                git 'https://github.com/jorgeluisculisvillugas/ejercicioUsoJenkins.git'
+                git 'https://github.com/jorgeluisculisvillugas/ejercicio.git'
             }
         }
         stage('Construir aplicación') {
